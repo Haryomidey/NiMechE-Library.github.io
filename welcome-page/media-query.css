@@ -1,0 +1,72 @@
+@media screen and (max-width: 850px) {
+    .wrapper {
+        width: 400px;
+    }
+
+    .li {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .semester {
+        width: 200px;
+        top: 48px;
+    }
+
+}
+
+@media screen and (max-width: 636px) {
+    .wrapper {
+        width: 300px;
+        line-height: 1.2;
+    }
+
+    .li {
+        width: 200px;
+        padding: 12px;
+        line-height: 1.2;
+    }
+
+    .semester {
+        width: 150px;
+        height: 55px;
+        line-height: 1.0;
+        top: 42px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--header-color);
+        height: 100px;
+        padding: 5px 20px;
+    }
+
+    .header {
+        font-size: 17px;
+    }
+
+    .image-1 {
+        width: 55px;
+    }
+
+
+}
+
+@media screen and (max-width: 340px) {
+    .header {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        width: 250px;
+        line-height: 1.2;
+    }
+}

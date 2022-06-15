@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="media-query.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <p class="header"><img src="images/NiMechE-logo.jpg" class="image-1"><br>NiMechE FUTA</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="register-header">
+                <p class="register">Register</p>
+                <a href=".././index.html">Log in</a>
+            </div>
+            <form onsubmit="return validate()" action="../welcome-page/welcome-page.html">
+                <div class="wrapper">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John smith" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="johnsmith@example.com" required>
+                    <label for="matric">Matric Number</label>
+                    <input type="text" id="matric" name="matric" placeholder="ABC/12/3456" required>
+                    <label for="tel">Mobile Number</label>
+                    <input type="tel" id="tel" name="tel" placeholder="+234 XXX - XXX - XXXX" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="********" maxlength="15" required>
+                    <button type="submit" class="button">Sign Up</button>
+                </div>
+
+            </form>
+
+
+        </div>
+    </main>
+    <script src="register.js"></script>
+
+</body>
+
+</html>

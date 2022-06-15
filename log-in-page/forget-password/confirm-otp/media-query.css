@@ -1,0 +1,112 @@
+:root {
+    --header-color: #8fbba4;
+    --button-color: #ffa86e;
+    --form-background: #d2e4da;
+    --secondary-link: #064122;
+    --text-color: #1f1f1f;
+    --input-background: #e8f1ed;
+
+}
+
+@media screen and (max-width: 560px) {
+    header {
+        height: 100px;
+    }
+
+    .container {
+        width: 350px;
+    }
+
+    .header {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .image-1 {
+        width: 50px;
+    }
+
+    .container {
+        width: 330px;
+    }
+
+    .button {
+        width: 65%;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 19px;
+    }
+    label{
+        font-size: 14px;
+    }
+    input {
+        margin: 3px 0 18px 20px;
+        width: 10%;
+        height: 30px;
+        padding: 0 10px;
+        font-size: 15px;
+
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 300px;
+    }
+
+    input {
+        margin: 3px 0 18px 20px;
+        width: 9%;
+        height: 28px;
+        padding: 0 7px;
+    }
+
+    .button {
+        margin-top: 25px;
+        margin-left: 45px;
+    }
+
+    label {
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+        margin-left: 15px;
+    }
+    .inputs{
+        margin-left: -1px;
+    }
+
+
+}
+@media screen and (max-width: 360px){
+    label{
+        font-size: 12px;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    .container{
+        width: 260px;
+        height: 250px;
+    }
+    main{
+        margin-top: 60px;
+    }
+    #confirm{
+        margin-bottom: -30px;
+    }
+    input {
+        margin: 3px 0 14px 6px;
+        width: 13%;
+        height: 25px;
+        padding: 4 7px;
+    }
+    .inputs{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .button{
+        margin-left: 34px;
+    }
+}

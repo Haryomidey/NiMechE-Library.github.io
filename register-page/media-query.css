@@ -1,0 +1,61 @@
+@media screen and (max-width: 445px) {
+    .container {
+        width: 340px;
+    }
+
+    .button {
+        width: 85%;
+        height: 35px;
+        margin: 20px auto;
+    }
+
+    #email,
+    #tel,
+    #matric,
+    #number,
+    #password,
+    #name {
+        margin-left: 10px;
+    }
+
+    label {
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .container {
+        width: 300px;
+        height: 400px;
+    }
+
+    .button {
+        margin-top: 10px;
+        width: 60%;
+        height: 30px;
+        font-size: 15px;
+        margin-left: 45px;
+    }
+
+    #email,
+    #tel,
+    #matric,
+    #number,
+    #password,
+    #name {
+        height: 30px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .first-link {
+        margin-right: 50px;
+    }
+
+    label {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+}

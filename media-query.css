@@ -1,0 +1,140 @@
+:root {
+    --header-color: #8fbba4;
+    --button-color: #ffa86e;
+    --form-background: #d2e4da;
+    --secondary-link: #064122;
+    --text-color: #1f1f1f;
+    --input-background: #e8f1ed;
+
+}
+
+@media screen and (max-width: 524px) {
+    .container {
+        width: 350px;
+
+    }
+
+    .third-link {
+        margin-left: -20px;
+    }
+
+    #email {
+        font-size: 15px;
+    }
+
+    .button {
+        font-size: 20px;
+        margin-left: 45px;
+    }
+
+}
+
+@media screen and (max-width: 516px) {
+    .fa-eye {
+        position: absolute;
+        top: 33px;
+        right: 30px;
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    .fa-eye-slash {
+        position: absolute;
+        top: 33px;
+        right: 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .container {
+        width: 320px;
+
+    }
+
+    .fa-eye {
+        position: absolute;
+        top: 33px;
+        right: 25px;
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    .fa-eye-slash {
+        position: absolute;
+        top: 33px;
+        right: 25px;
+        cursor: pointer;
+    }
+
+    .third-link {
+        margin-left: -30px;
+    }
+
+    .button {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .container {
+        width: 270px;
+        height: 330px;
+
+    }
+
+    .button {
+        margin-left: 34px;
+        width: 140px;
+        margin-top: 10px;
+        height: 30px;
+    }
+
+    .third-link {
+        margin-right: -10px;
+        font-size: 13px;
+    }
+
+    #email,
+    #password {
+        width: 180px;
+        font-size: 14px;
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+
+    label {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .fa-eye {
+        position: absolute;
+        top: 35px;
+        right: 28px;
+        visibility: visible;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .fa-eye-slash {
+        position: absolute;
+        top: 35px;
+        right: 28px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .wrapper {
+        margin-top: -30px;
+    }
+
+    .first-link {
+        margin-right: 0px;
+        font-size: 13px;
+    }
+    .check{
+        margin-left: -8px;
+    }
+
+}

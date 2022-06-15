@@ -1,0 +1,112 @@
+:root {
+    --header-color: #8fbba4;
+    --button-color: #ffa86e;
+    --form-background: #d2e4da;
+    --secondary-link: #064122;
+    --text-color: #1f1f1f;
+    --input-background: #e8f1ed;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--header-color);
+    height: 120px;
+    padding: 5px 20px;
+}
+
+.image-1 {
+    width: 60px;
+}
+
+.header {
+    font-size: 20px;
+}
+
+.arrow {
+    width: 15px;
+    padding-bottom: -9px;
+    transform: rotate(180deg);
+}
+
+.container {
+    width: 370px;
+    height: 300px;
+    background: var(--form-background);
+    padding: 30px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+input {
+    margin: 3px 0 18px 20px;
+    width: 10%;
+    height: 38px;
+    padding: 0 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+    background: var(--input-background);
+}
+
+label {
+    margin-left: 34px;
+    margin-bottom: 10px;
+}
+.inputs{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.confirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+#confirm {
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 3;
+}
+
+.button {
+    background: var(--button-color);
+    width: 88%;
+    border: 0;
+    border-radius: 7px;
+    height: 40px;
+    font-weight: 650px;
+    font-size: 25px;
+    margin-top: 30px;
+    transition: all 0.3s;
+    color: black;
+    margin-left: 20px;
+    outline: none;
+}
+
+.button:focus,
+.button:hover {
+    box-shadow: none;
+    cursor: pointer;
+}

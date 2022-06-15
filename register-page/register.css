@@ -1,0 +1,157 @@
+:root {
+    --header-color: #8fbba4;
+    --button-color: #ffa86e;
+    --form-background: #d2e4da;
+    --secondary-link: #064122;
+    --text-color: #1f1f1f;
+    --input-background: #e8f1ed;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--header-color);
+    height: 100px;
+    padding: 5px 20px;
+}
+
+.image-1 {
+    width: 50px;
+}
+
+.header {
+    font-size: 17px;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 80vh;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 400px;
+    min-height: 500px;
+    background-color: var(--form-background);
+    padding: 30px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.register-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.register {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+a {
+
+    color: var(--secondary-link);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#name {
+    margin: 3px 0 18px 0;
+    width: 88%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+}
+
+#email {
+    margin: 3px 0 18px 0;
+    width: 88%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+}
+
+#matric {
+    margin: 3px 0 18px 0;
+    width: 88%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+}
+
+#tel {
+    margin: 3px 0 18px 0;
+    width: 88%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+}
+
+#password {
+    margin: 3px 0 18px 0;
+    width: 88%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+}
+
+input {
+    background: var(--input-background);
+}
+
+.button {
+    background: var(--button-color);
+    width: 88%;
+    border: 0;
+    border-radius: 7px;
+    height: 40px;
+    font-weight: 650px;
+    font-size: 25px;
+    margin-top: 30px;
+    transition: all 0.3s;
+    color: black;
+    box-shadow: -1px 1px black;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: none;
+}

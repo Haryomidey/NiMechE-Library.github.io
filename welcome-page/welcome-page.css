@@ -1,0 +1,110 @@
+:root {
+    --header-color: #8fbba4;
+    --button-color: #ffa86e;
+    --form-background: #d2e4da;
+    --secondary-link: #064122;
+    --text-color: #1f1f1f;
+    --input-background: #e8f1ed;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all 0.5s;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--header-color);
+    height: 120px;
+    padding: 5px 20px;
+}
+
+.image-1 {
+    width: 60px;
+}
+
+.header {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.image-2 {
+    width: 40px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 70px;
+}
+
+.wrapper {
+    background: var(--button-color);
+    width: 500px;
+    margin: 30px auto;
+    padding: 18px;
+    border: 0;
+    border-radius: 15px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.li {
+    background: var(--button-color);
+    width: 400px;
+    margin: 30px auto;
+    padding: 18px;
+    border: 0;
+    border-radius: 15px;
+    line-height: 1.5;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.li-wrapper {
+    position: relative;
+    transition: all 0.5s;
+}
+
+.li:hover .semester {
+    display: block;
+    transition: all 0.5s;
+}
+
+.course {
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+    width: 100%;
+    transition: all 0.5s;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.course:hover {
+    opacity: 1;
+    background-color: #064122;
+    color: white;
+}
+
+.semester {
+    display: none;
+}

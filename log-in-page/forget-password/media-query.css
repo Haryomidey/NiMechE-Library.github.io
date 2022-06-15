@@ -1,0 +1,91 @@
+@media screen and (max-width: 480px) {
+    .container {
+        width: 350px;
+        height: 300px;
+
+    }
+
+}
+
+@media screen and (max-width: 445px) {
+    header {
+        height: 100px;
+    }
+
+    .header {
+        font-size: 17px;
+    }
+
+    .button {
+        width: 65%;
+        margin-left: 60px;
+        font-size: 18px;
+    }
+
+    .container {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .image-1 {
+        width: 50px;
+    }
+
+    .container {
+        width: 300px;
+        height: 280px;
+    }
+
+    .button {
+        margin-left: 45px;
+        padding: 5px;
+    }
+
+    #email {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    label{
+        margin-left: 16px;
+    }
+    #forget{
+        font-weight: 550;
+        font-size: 18px;
+    }
+    .forget{
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        width: 300px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .container {
+        width: 300px;
+    }
+
+    #email {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .container {
+        width: 270px;
+        height: 270px;
+
+    }
+
+    .button {
+        margin-left: 40px;
+        font-size: 15px;
+    }
+
+}

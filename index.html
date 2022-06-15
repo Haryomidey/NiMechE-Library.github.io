@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-page.css">
+    <link rel="stylesheet" href="media-query.css">
+    <script src="https://kit.fontawesome.com/b5e96276c9.js" crossorigin="anonymous"></script>
+    <title>Login Page</title>
+</head>
+
+<body>
+    <header>
+        <p class="header"><img src="images/NiMechE-logo.jpg" class="image-1"><br>NiMechE FUTA</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="inner-header">
+                <p class="log-in">Log in</p>
+                <a href="register-page/register.html" class="first-link link">Sign up</a>
+            </div>
+            <div class="wrapper">
+                <form onsubmit="return validate()" action="welcome-page/welcome-page.html">
+                    <label for="email">E-mail/Matric Number</label>
+                    <input type="email" id="email" name="email" placeholder="johnsmith@example.com" required>
+                    <div class="show">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="********" maxlength="15"
+                            required>
+                        <div class="eyes">
+                            <div class="check">
+                                <input type="checkbox" id="checkbox" name="checkbox">
+                                <p class="remember"><a href="#" class="second-link" required>Remember me?</a></p>
+                            </div>
+                            <i class="fa fa-eye"></i>
+                        </div>
+
+                    </div>
+                    <button type="submit" class="button">Log in</button>
+                    <p class="forgot"><a href="log-in-page/forget-password/forget-password.html"
+                            class="link third-link">Forget password?</a></p>
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <script src="login-page.js"></script>
+</body>
+
+</html>

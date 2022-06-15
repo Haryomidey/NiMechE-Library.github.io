@@ -1,0 +1,182 @@
+:root {
+    --header-color: #8fbba4;
+    --button-color: #ffa86e;
+    --form-background: #d2e4da;
+    --secondary-link: #064122;
+    --text-color: #1f1f1f;
+    --input-background: #e8f1ed;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--header-color);
+    height: 110px;
+    padding: 5px 20px;
+}
+
+.image-1 {
+    width: 60px;
+}
+
+.header {
+    font-size: 20px;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: var(--form-background);
+    padding: 30px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.inner-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.log-in {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.first-link {
+
+    color: var(--secondary-link);
+
+}
+
+.link {
+    margin-right: 20px;
+    color: var(--secondary-link);
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#email {
+    margin: 3px 0 18px 20px;
+    width: 88%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+}
+
+input {
+    background: var(--input-background);
+}
+
+label {
+    margin-left: 20px;
+}
+
+#password {
+    margin: 3px 0 18px 20px;
+    width: 88%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.show {
+    position: relative;
+    width: 100%;
+}
+
+.fa-eye {
+    position: absolute;
+    top: 33px;
+    right: 35px;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.fa-eye-slash {
+    position: absolute;
+    top: 33px;
+    right: 35px;
+    cursor: pointer;
+}
+
+.button {
+    background: var(--button-color);
+    width: 200px;
+    border: 0;
+    border-radius: 7px;
+    height: 40px;
+    font-weight: 650px;
+    font-size: 25px;
+    transition: all 0.3s;
+    opacity: 0.8;
+    color: black;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.button:focus,
+.button:hover {
+    box-shadow: none;
+}
+
+.button-active {
+    opacity: 1;
+    box-shadow: -1px 1px black;
+    cursor: pointer;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+}
+
+#checkbox {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 20px;
+    outline: none;
+}
+
+.second-link {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.forgot {
+    margin-top: 10px;
+    margin-left: 52%;
+}

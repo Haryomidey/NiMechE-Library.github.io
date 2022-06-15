@@ -1,0 +1,42 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="confirm-otp.css">
+    <link rel="stylesheet" href="media-query.css">
+    <title>Confirm OTP page</title>
+</head>
+
+<body>
+    <header>
+        <p class="header"><img src="images/NiMechE-logo.jpg" class="image-1"><br>NiMechE FUTA</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="confirm">
+                <a href="../login-page.html"></a>
+                <p id="confirm">Confirm OTP</p>
+            </div>
+            <label for="email">Enter the OTP sent to your email.</label>
+            <form onsubmit="return validate()" action="confirmed/confirmed.html">
+                <div class="inputs">
+                    <input type="password" size="1" id="input-1" maxlength="1" placeholder="*"
+                        onkeyup="move(this, 'input-2')" required/>
+                    <input type="password" size="1" id="input-2" maxlength="1" placeholder="*"
+                        onkeyup="move(this, 'input-3')" required/>
+                    <input type="password" size="1" id="input-3" maxlength="1" placeholder="*"
+                        onkeyup="move(this, 'input-4')" required/>
+                    <input type="password" size="1" id="input-4" maxlength="1" placeholder="*"
+                        onkeyup="move(this, 'input-5')" required/>
+                    <input type="password" size="1" id="input-5" maxlength="1" placeholder="*"
+                        onkeyup="move(this, 'input-1')" required/>
+                </div>
+                <button type="submit" class="button">Confirm</button>
+            </form>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
